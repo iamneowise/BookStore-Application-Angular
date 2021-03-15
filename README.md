@@ -117,7 +117,7 @@ While the above ones are the basic functional features expected, the below ones 
 **API Endpoints:**
 
 | USER |
- |
+| --- | --- | --- | --- |
 | Action | URL | Method | Response |
 | Login | /login | POST | true/false |
 | Signup | /signup | POST | true/false |
@@ -129,14 +129,8 @@ While the above ones are the basic functional features expected, the below ones 
 | Orders list | /orders | POST | Array of Orders |
 | Place order directly | /placeOrder | POST | Place items to orders directly |
 |
- |
- |
- |
- |
 | ADMIN |
- |
- |
- |
+| --- | --- | --- | --- |
 | Action | URL | Method | Response |
 | Get All Products | /admin | GET | Array of Products |
 | Add Product | /admin/addProduct | POST | Product added |
