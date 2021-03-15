@@ -2,11 +2,9 @@
 # iamneo | Ecommerce | BookHub | Angular-Springboot-Fullstack-App
 
 
-**Neo Book Store**
-
 **Objective:**
 
-Neo Book Store is an online application to be built as a product that can be catering to various customers who requires purchasing books.
+BookHub is an online application to be built as a product that can be catering to various customers who requires purchasing books.
 
 **Users of the System:**
 
@@ -80,6 +78,7 @@ While the above ones are the basic functional features expected, the below ones 
 | Front End | Angular 7+Google Material Design Bootstrap / Bulma |
 | --- | --- |
 | Server Side | Spring BootSpring Web (Rest Controller)Spring SecuritySpring AOPSpring Hibernate |
+| --- | ---1 | 
 | Core Platform | OpenJDK 11 |
 | Database | MySQL or H2 |
 
