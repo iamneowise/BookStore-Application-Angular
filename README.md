@@ -110,25 +110,25 @@ Product Edit	/admin/productEdit/{id}	GET	Get All details of Particular id
 Product Edit	/admin/productEdit/{id}	POST	Save the Changes
 Get All Orders	/admin/orders	GET	Array of Orders
 
-Frontend: 
-Customer:
-1.	Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
-a.	Ids:
-i.	email
-ii.	username
-iii.	mobilenumber
-iv.	password
-v.	confirmpassword
-b.	API endpoint Url: http://localhost:4200/signup
-c.	Output screenshot:
- 
-2.	Login: Design a login page component where the existing customer can log in using the registered email id and password.
-a.	Ids:
-i.	email
-ii.	password
-b.	API endpoint Url: http://localhost:4200/login
-c.	Output screenshot:
-
+### Frontend: 
+#### Customer:
+```Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
+	Ids:
+	email
+	username
+	mobilenumber
+	password
+	confirmpassword
+	API endpoint Url: http://localhost:4200/signup
+	Output screenshot:
+``` 
+```Login: Design a login page component where the existing customer can log in using the registered email id and password.
+	Ids:
+	email
+	password
+	API endpoint Url: http://localhost:4200/login
+	Output screenshot:
+```
  
 3.	Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
 a.	Ids:
