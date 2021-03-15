@@ -38,7 +38,7 @@ While the above ones are the basic functional features expected, the below ones 
 - Sensitive data has to be categorized and stored in a secure manner
 - Secure connection for transmission of any data
  |
-| --- | --- |
+---
 | **Performance** |
 - Peak Load Performance (during Festival days, National holidays etc)
 - eCommerce -\&lt; 3 Sec
@@ -47,11 +47,11 @@ While the above ones are the basic functional features expected, the below ones 
 - eCommerce \&lt; 2 Sec
 - Admin Application \&lt; 2 Sec
  |
- | --- | --- |
+---
 | **Availability** |
 - 99.99 % Availability
  |
- | --- | --- |
+---
 | **Standard Features** |
 - Scalability
 - Maintainability
@@ -59,26 +59,26 @@ While the above ones are the basic functional features expected, the below ones 
 - Availability
 - Failover
  |
- | --- | --- |
+---
 | **Logging &amp; Auditing** |
 - The system should support logging(app/web/DB) &amp; auditing at all levels
  |
- | --- | --- |
+---
 | **Monitoring** |
 - Should be able to monitor via as-is enterprise monitoring tools
  |
- | --- | --- |
+---
 | **Cloud** |
 - The Solution should be made Cloud-ready and should have a minimum impact when moving away to Cloud infrastructure
  |
- | --- | --- |
+---
 | **Browser Compatible** |
 - IE 7+
 - Mozilla Firefox Latest – 15
 - Google Chrome Latest – 20
 - Mobile Ready
  |
-| --- | --- |
+---
 # Technology Stack
 
 | Front End | Angular 7+Google Material Design Bootstrap / Bulma |
