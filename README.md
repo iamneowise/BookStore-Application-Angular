@@ -81,7 +81,8 @@ While the above ones are the basic functional features expected, the below ones 
 ---
 # Technology Stack
 
-| Front End | Angular 7+Google Material Design Bootstrap / Bulma |
+| Front End | Angular 7+ Google Material Design Bootstrap / Bulma |
+| --- | --- |
 | Server Side | Spring BootSpring Web (Rest Controller)Spring SecuritySpring AOPSpring Hibernate |
 | Core Platform | OpenJDK 11 |
 | Database | MySQL or H2 |
