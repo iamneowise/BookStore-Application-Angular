@@ -120,15 +120,16 @@ Get All Orders	/admin/orders	GET	Array of Orders
 	password
 	confirmpassword
 	API endpoint Url: http://localhost:4200/signup
-	Output screenshot:
 ``` 
+Output screenshot:
 ```Login: Design a login page component where the existing customer can log in using the registered email id and password.
 	Ids:
 	email
 	password
 	API endpoint Url: http://localhost:4200/login
-	Output screenshot:
 ```
+Output screenshot:
+	
  
 3.	Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
 a.	Ids:
