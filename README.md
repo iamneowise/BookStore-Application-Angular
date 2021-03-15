@@ -154,19 +154,13 @@ While the above ones are the basic functional features expected, the below ones 
  |
  |
 | Action | URL | Method | Response |
-| --- | --- |
 | Get All Products | /admin | GET | Array of Products |
-| --- | --- |
 | Add Product | /admin/addProduct | POST | Product added |
-| --- | --- |
 | Delete Product | /admin/delete/{id} | GET | Product deleted |
-| --- | --- |
 | Product Edit | /admin/productEdit/{id} | GET | Get All details of Particular id |
-| --- | --- |
 | Product Edit | /admin/productEdit/{id} | POST | Save the Changes |
-| --- | --- |
 | Get All Orders | /admin/orders | GET | Array of Orders |
-| --- | --- |
+
 
 **Frontend:**
 
