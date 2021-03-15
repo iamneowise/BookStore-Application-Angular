@@ -47,9 +47,11 @@ While the above ones are the basic functional features expected, the below ones 
 - eCommerce \&lt; 2 Sec
 - Admin Application \&lt; 2 Sec
  |
+ | --- | --- |
 | **Availability** |
 - 99.99 % Availability
  |
+ | --- | --- |
 | **Standard Features** |
 - Scalability
 - Maintainability
@@ -57,30 +59,36 @@ While the above ones are the basic functional features expected, the below ones 
 - Availability
 - Failover
  |
+ | --- | --- |
 | **Logging &amp; Auditing** |
 - The system should support logging(app/web/DB) &amp; auditing at all levels
  |
+ | --- | --- |
 | **Monitoring** |
 - Should be able to monitor via as-is enterprise monitoring tools
  |
+ | --- | --- |
 | **Cloud** |
 - The Solution should be made Cloud-ready and should have a minimum impact when moving away to Cloud infrastructure
  |
+ | --- | --- |
 | **Browser Compatible** |
 - IE 7+
 - Mozilla Firefox Latest – 15
 - Google Chrome Latest – 20
 - Mobile Ready
  |
-
+| --- | --- |
 # Technology Stack
-
+| --- | --- |
 | Front End | Angular 7+Google Material Design Bootstrap / Bulma |
 | --- | --- |
 | Server Side | Spring BootSpring Web (Rest Controller)Spring SecuritySpring AOPSpring Hibernate |
-| --- | ---1 | 
+| --- | --- | 
 | Core Platform | OpenJDK 11 |
+| --- | --- |
 | Database | MySQL or H2 |
+| --- | --- |
 
 **Platform Pre-requisites (Do&#39;s and Don&#39;ts):**
 
@@ -116,31 +124,49 @@ While the above ones are the basic functional features expected, the below ones 
  |
 | --- | --- |
 | Action | URL | Method | Response |
+| --- | --- |
 | Login | /login | POST | true/false |
+| --- | --- |
 | Signup | /signup | POST | true/false |
+| --- | --- |
 | Get All Products – Home | /home | GET | Array of Products |
+| --- | --- |
 | Add to cart | /home/{id} | POST | Item added to cart |
+| --- | --- |
 | Cart Items | /cart/{id} | GET | Array of Cart Items |
+| --- | --- |
 | Delete cart Item | /cart/delete | POST | Cart Deleted |
+| --- | --- |
 | Cart to Orders | /saveOrder | POST | Cart items added to the Orders list |
+| --- | --- |
 | Orders list | /orders | POST | Array of Orders |
+| --- | --- |
 | Place order directly | /placeOrder | POST | Place items to orders directly |
 |
  |
  |
  |
  |
+ | --- | --- |
 | ADMIN |
+| --- | --- |
  |
  |
  |
 | Action | URL | Method | Response |
+| --- | --- |
 | Get All Products | /admin | GET | Array of Products |
+| --- | --- |
 | Add Product | /admin/addProduct | POST | Product added |
+| --- | --- |
 | Delete Product | /admin/delete/{id} | GET | Product deleted |
+| --- | --- |
 | Product Edit | /admin/productEdit/{id} | GET | Get All details of Particular id |
+| --- | --- |
 | Product Edit | /admin/productEdit/{id} | POST | Save the Changes |
+| --- | --- |
 | Get All Orders | /admin/orders | GET | Array of Orders |
+| --- | --- |
 
 **Frontend:**
 
