@@ -3,10 +3,13 @@
 
 Neo Book Store
 Objective:
-Neo Book Store is an online application to be built as a product that can be catering to various customers who requires purchasing books.
+BookHub is an online application to be built as a product that can be catering to various customers who requires purchasing books.
+
 Users of the System:
 1.	Admin
 2.	Customer
+
+
 Functional Requirements:	
 -	Build an application that customer can access and purchase books online.
 -	The application should have signup, login, profile, dashboard page, and product page.
@@ -15,14 +18,14 @@ Functional Requirements:
 -	Administration module to include options for adding / modifying / removing the existing product(s) and customer management.
 
 While the above ones are the basic functional features expected, the below ones can be nice to have add-on features:
-	Filters for products like Low to High or showcasing products based on the customer’s price range, specific brands etc.
-	Email integration for intimating new personalized offers to customers. 
-	Multi-factor authentication for the sign-in process
-	Payment Gateway
+-	Filters for products like Low to High or showcasing products based on the customer’s price range, specific brands etc.
+-	Email integration for intimating new personalized offers to customers. 
+-	Multi-factor authentication for the sign-in process
+-	Payment Gateway
 
 Output/ Post Condition:
-	Records Persisted in Success & Failure Collections
-	Standalone application / Deployed in an app Container
+-	Records Persisted in Success & Failure Collections
+-	Standalone application / Deployed in an app Container
 Non-Functional Requirements:
 
 Security	•	App Platform –UserName/Password-Based Credentials
