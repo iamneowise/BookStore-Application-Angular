@@ -279,33 +279,34 @@ While the above ones are the basic functional features expected, the below ones 
 
 **Controller Layer:**
 
-1. SignupController: This class control the user signup
-  1. Attributes: -
-  2. Methods:
-    1. saveUser(UserModel user): This method helps to store users in the database and return true or false based on the database transaction.
-2. LoginController: This class controls the user login.
-  1. Attributes: -
-  2. Methods:
-    1. checkUser(LoginModeldata): This method helps the user to sign up for the application and must return true or false
-3. ProductController: This class controls the add/edit/update/view products.
-  1. Attributes: -
-  2. Methods:
-    1. List\&lt;ProductModel\&gt;getProduct(): This method helps the admin to fetch all products from the database.
-    2. List\&lt;ProductModel\&gt;getHomeProduct(): This method helps to retrieve all the products from the database.
-    3. ProductModelproductEditData(Stringid): This method helps to retrieve a product from the database based on the productid.
-    4. productEditSave(ProductModeldata): This method helps to edit a product and save it to the database.
-    5. productSave(ProductModeldata): This method helps to add a new product to the database.
-    6. productDeleteStringid): This method helps to delete a product from the database.
-4. CartController: This class helps in adding product to the cart, deleting the products from the cart, updating items in the cart.
-  1. Attributes: -
-  2. Methods:
-    1. addToCart(StringQuantity, Stringid): This method helps the customer to add the product to the cart.
-    2. List\&lt;CartTempModel\&gt;showCart(Stringid): This method helps to view the cart items.
-    3. deleteCartItem(Stringid): This method helps to delete a product from the cart.
-5. OrderController: This class helps with the orders such as save order/ place an order/ view order.
-  1. Attributes: -
-  2. Methods:
-    1. List\&lt;OrderTemp\&gt;getUserProducts(Stringid): This method helps to list the orders based on the user id.
-    2. saveProduct(Stringid): This method helps to save the cart items as an order.
-    3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
+6.	SignupController: This class control the user signup
+a.	Attributes:  -
+b.	Methods:
+i.	saveUser(UserModel user): This method helps to store users in the database and return true or false based on the database transaction.
+7.	LoginController: This class controls the user login.
+a.	Attributes: -
+b.	Methods: 
+i.	checkUser(LoginModel data): This method helps the user to sign up for the application and must return true or false
+8.	ProductController: This class controls the add/edit/update/view products.
+a.	Attributes: -
+b.	Methods: 
+i.	List<ProductModel> getProduct(): This method helps the admin to fetch all products from the database.
+ii.	List<ProductModel> getHomeProduct(): This method helps to retrieve all the products from the database.
+iii.	ProductModel productEditData(String id): This method helps to retrieve a product from the database based on the productid.
+iv.	productEditSave(ProductModel data): This method helps to edit a product and save it to the database.
+v.	productSave(ProductModel data): This method helps to add a new product to the database.
+vi.	productDelete String id): This method helps to delete a product from the database.
+9.	CartController: This class helps in adding product to the cart, deleting the products from the cart, updating items in the cart.
+a.	Attributes: -
+b.	Methods:
+i.	addToCart(String Quantity, String id): This method helps the customer to add the product to the cart.
+ii.	List<CartTempModel> showCart(String id): This method helps to view the cart items. 
+iii.	deleteCartItem(String id): This method helps to delete a product from the cart.
+10.	 OrderController: This class helps with the orders such as save order/ place an order/ view order.
+a.	Attributes: -
+b.	Methods:
+i.	List<OrderTemp> getUserProducts(String id): This method helps to list the orders based on the user id.
+ii.	saveProduct(String id): This method helps to save the cart items as an order.
+iii.	placeOrder(OrderModel order): This method helps to place an order by the customer.
+
     ```
