@@ -154,7 +154,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/signup](http://localhost:4200/signup)
   3. Output screenshot:
 ```
-![]()
+![](https://bn1305files.storage.live.com/y4mo8qjJAmXEbrPD7XDdYLshRCLMmgqzBIy7B2LZD3bWtkmqAJNfZ7OCtyOtxzlN7COcv3u74NUvwCceX8PXu8KiYS6Gelz5qyY0QLeNtQhS3HOvAy9ypbpZ0nAXGRC8SR9IsC14zzyknimaecy3vUIf0ZtMMb9e3OG2bcsmJ6sGpl2q8-TVAZ4VRzAGGHtUCdB?width=1483&height=1024&cropmode=none)
 
 ```1. Login: Design a login page component where the existing customer can log in using the registered email id and password.
   1. Ids:
