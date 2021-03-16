@@ -145,7 +145,7 @@ While the above ones are the basic functional features expected, the below ones 
 **Customer:**
 ```
 1. Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
-  1. Ids:
+  ```1. Ids:
     1. email
     2. username
     3. mobilenumber
@@ -153,59 +153,59 @@ While the above ones are the basic functional features expected, the below ones 
     5. confirmpassword
   2. API endpoint Url: [http://localhost:4200/signup](http://localhost:4200/signup)
   3. Output screenshot:
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_6b2c7e20a0c6596.png)
 
-1. Login: Design a login page component where the existing customer can log in using the registered email id and password.
+```1. Login: Design a login page component where the existing customer can log in using the registered email id and password.
   1. Ids:
     1. email
     2. password
   2. API endpoint Url: [http://localhost:4200/login](http://localhost:4200/login)
   3. Output screenshot:
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_55316531e76633a6.png)
 
-1. Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
+```1. Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
   1. Ids:
     1. homeButton
     2. cartButton
     3. orderButton
   2. API endpoint Url: [http://localhost:4200/](http://localhost:4200/login)home
   3. Screenshot
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_79ef20b65d997156.png)
 
-1. Cart and Orders: Design a cart component and order component where we can see the cart items and see the items ordered after placing an order.
+```1. Cart and Orders: Design a cart component and order component where we can see the cart items and see the items ordered after placing an order.
   1. Ids
     1. cartBody
     2. orderBody
   2. API endpoint Url: [http://localhost:4200/](http://localhost:4200/login)cart
   3. API endpoint Url: [http://localhost:4200/orders](http://localhost:4200/orders)
   4. Screenshot
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_f436440e5177c99c.png)
 
 **Admin:**
 
-1. Admin Dashboard: Design a dashboard page where the list of products is displayed on the admin side.
+```1. Admin Dashboard: Design a dashboard page where the list of products is displayed on the admin side.
   1. Ids
     1. addProduct
     2. productBody
   2. API endpoint Url: [http://localhost:4200/admin](http://localhost:4200/admin)
   3. Screenshot
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_3e88f563434358f3.png)
 
-1. Admin Navigation: Design a navigation component that can navigate to products and orders.
+```1. Admin Navigation: Design a navigation component that can navigate to products and orders.
   1. Ids:
     1. adminOrderButton
     2. productButton
     3. logoutButton
   2. Screenshot:
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_4af3fee3553adf00.png)
 
-1. Add Product: Design an add product component in which the admin can add new products to the inventory.
+```1. Add Product: Design an add product component in which the admin can add new products to the inventory.
   1. Ids:
     1. addProductBody
     2. productName
@@ -216,18 +216,18 @@ While the above ones are the basic functional features expected, the below ones 
     7. addProductButton
   2. API endpoint Url: [http://localhost:4200/ad](http://localhost:4200/ad)dProduct
   3. Screenshot
-
+```
 ![](RackMultipart20210315-4-1qhju7z_html_632b13862eabe81.png)
 
-1. View Orders: Create a view component where the admin can look into the new and old orders.
+```1. View Orders: Create a view component where the admin can look into the new and old orders.
   1. Ids:
     1. adminOrderBody
   2. API endpoint Url: [http://localhost:4200/admin](http://localhost:4200/admin)/orders
   3. Screenshot
-
-![](RackMultipart20210315-4-1qhju7z_html_addf7d592975141c.png)
 ```
-**Backend:**
+![](RackMultipart20210315-4-1qhju7z_html_addf7d592975141c.png)
+
+## Backend
 
 **Class and Method description:**
 
@@ -244,11 +244,13 @@ While the above ones are the basic functional features expected, the below ones 
     7. cart: CartModel
     8. ordersList: List<OrderModel>
   2. Methods: -
+
 2. LoginModel: This class contains the email and password of the user.
   1. Attributes:
     1. email: String
     2. password: String
   2. Methods: -
+
 3. ProductModel: This class stores the details of the product.
   1. Attributes:
     1. productId: String
@@ -258,6 +260,7 @@ While the above ones are the basic functional features expected, the below ones 
     5. description: String
     6. quantity: String
   2. Methods: -
+
 4. CartModel: This class stores the cart items.
   1. Attributes:
     1. cartItemID: String
@@ -266,6 +269,7 @@ While the above ones are the basic functional features expected, the below ones 
     4. Quantity: int
     5. Price: String
   2. Methods: -
+
 5. OrderModel: This class stores the order details.
   1. Attributes:
     1. orderId: String
@@ -283,10 +287,12 @@ While the above ones are the basic functional features expected, the below ones 
   1. Attributes: -
   2. Methods:
     1. saveUser(UserModel user): This method helps to store users in the database and return true or false based on the database transaction.
+
 2. LoginController: This class controls the user login.
   1. Attributes: -
   2. Methods:
     1. checkUser(LoginModeldata): This method helps the user to sign up for the application and must return true or false
+
 3. ProductController: This class controls the add/edit/update/view products.
   1. Attributes: -
   2. Methods:
@@ -296,12 +302,14 @@ While the above ones are the basic functional features expected, the below ones 
     4. productEditSave(ProductModeldata): This method helps to edit a product and save it to the database.
     5. productSave(ProductModeldata): This method helps to add a new product to the database.
     6. productDeleteStringid): This method helps to delete a product from the database.
+    
 4. CartController: This class helps in adding product to the cart, deleting the products from the cart, updating items in the cart.
   1. Attributes: -
   2. Methods:
     1. addToCart(StringQuantity, Stringid): This method helps the customer to add the product to the cart.
     2. List<CartTempModel> showCart(Stringid): This method helps to view the cart items.
     3. deleteCartItem(Stringid): This method helps to delete a product from the cart.
+    
 5. OrderController: This class helps with the orders such as save order/ place an order/ view order.
   1. Attributes: -
   2. Methods:
