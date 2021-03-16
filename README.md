@@ -79,6 +79,7 @@ While the above ones are the basic functional features expected, the below ones 
 - Mobile Ready
  |
 ---
+
 | **Technology Stack** |
 | --- | --- | 
 | Front End | Angular 7+ Google Material Design Bootstrap / Bulma |
