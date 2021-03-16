@@ -242,7 +242,7 @@ While the above ones are the basic functional features expected, the below ones 
     5. active: Boolean
     6. role: String
     7. cart: CartModel
-    8. ordersList: List`<OrderModel>`
+    8. ordersList: List<OrderModel>
   2. Methods: -
 2. LoginModel: This class contains the email and password of the user.
   1. Attributes:
@@ -290,8 +290,8 @@ While the above ones are the basic functional features expected, the below ones 
 3. ProductController: This class controls the add/edit/update/view products.
   1. Attributes: -
   2. Methods:
-    1. List\&lt;ProductModel\&gt;getProduct(): This method helps the admin to fetch all products from the database.
-    2. List\&lt;ProductModel\&gt;getHomeProduct(): This method helps to retrieve all the products from the database.
+    1. List<ProductModel> getProduct(): This method helps the admin to fetch all products from the database.
+    2. List<ProductModel> getHomeProduct(): This method helps to retrieve all the products from the database.
     3. ProductModelproductEditData(Stringid): This method helps to retrieve a product from the database based on the productid.
     4. productEditSave(ProductModeldata): This method helps to edit a product and save it to the database.
     5. productSave(ProductModeldata): This method helps to add a new product to the database.
@@ -300,12 +300,12 @@ While the above ones are the basic functional features expected, the below ones 
   1. Attributes: -
   2. Methods:
     1. addToCart(StringQuantity, Stringid): This method helps the customer to add the product to the cart.
-    2. List\&lt;CartTempModel\&gt;showCart(Stringid): This method helps to view the cart items.
+    2. List<CartTempModel> showCart(Stringid): This method helps to view the cart items.
     3. deleteCartItem(Stringid): This method helps to delete a product from the cart.
 5. OrderController: This class helps with the orders such as save order/ place an order/ view order.
   1. Attributes: -
   2. Methods:
-    1. List\&lt;OrderTemp\&gt;getUserProducts(Stringid): This method helps to list the orders based on the user id.
+    1. List<OrderTemp> getUserProducts(Stringid): This method helps to list the orders based on the user id.
     2. saveProduct(Stringid): This method helps to save the cart items as an order.
     3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
     ```
