@@ -287,9 +287,10 @@ View Orders: Create a view component where the admin can look into the new and o
     6. Status: String
     7. Price: String
   2. Methods: -
+```
 
 **Controller Layer:**
-
+```
 1. SignupController: This class control the user signup
   1. Attributes: -
   2. Methods:
@@ -324,3 +325,4 @@ View Orders: Create a view component where the admin can look into the new and o
     2. saveProduct(Stringid): This method helps to save the cart items as an order.
     3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
     ```
+Happy Coding Neos:thumbsup:
