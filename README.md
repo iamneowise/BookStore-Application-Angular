@@ -30,7 +30,6 @@ While the above ones are the basic functional features expected, the below ones 
 
 - Records Persisted in Success &amp; Failure Collections
 - Standalone application / Deployed in an app Container
-  |
 ---
 
 # Non-Functional Requirements:
@@ -39,8 +38,7 @@ While the above ones are the basic functional features expected, the below ones 
 - App Platform –UserName/Password-Based Credentials
 - Sensitive data has to be categorized and stored in a secure manner
 - Secure connection for transmission of any data
- |
----
+ ***
 | **Performance** |
 - Peak Load Performance (during Festival days, National holidays etc)
 - eCommerce -\&lt; 3 Sec
@@ -48,39 +46,32 @@ While the above ones are the basic functional features expected, the below ones 
 - Non Peak Load Performance
 - eCommerce \&lt; 2 Sec
 - Admin Application \&lt; 2 Sec
- |
----
+***
 | **Availability** |
 - 99.99 % Availability
- |
----
+***
 | **Standard Features** |
 - Scalability
 - Maintainability
 - Usability
 - Availability
 - Failover
- |
----
+ ***
 | **Logging &amp; Auditing** |
 - The system should support logging(app/web/DB) &amp; auditing at all levels
- |
----
+ ***
 | **Monitoring** |
 - Should be able to monitor via as-is enterprise monitoring tools
- |
----
+***
 | **Cloud** |
 - The Solution should be made Cloud-ready and should have a minimum impact when moving away to Cloud infrastructure
- |
----
+ ***
 | **Browser Compatible** |
 - IE 7+
 - Mozilla Firefox Latest – 15
 - Google Chrome Latest – 20
 - Mobile Ready
- |
----
+ ***
 
 |               | Technology Stack                                                                 |                          |   |   |
 |---------------|----------------------------------------------------------------------------------|--------------------------|---|---|
