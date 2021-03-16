@@ -30,6 +30,8 @@ While the above ones are the basic functional features expected, the below ones 
 
 - Records Persisted in Success &amp; Failure Collections
 - Standalone application / Deployed in an app Container
+  |
+---
 
 # Non-Functional Requirements:
 
@@ -113,6 +115,8 @@ While the above ones are the basic functional features expected, the below ones 
 
 1. Basic email validation should be performed.
 2. Basic mobile validation should be performed.
+|
+---
 
 **Project Tasks:**
 
@@ -134,16 +138,17 @@ While the above ones are the basic functional features expected, the below ones 
 
 | ADMIN |
 
+|     Action              |     URL                        |     Method    |     Response                            |
+|-------------------------|--------------------------------|---------------|-----------------------------------------|
+|     Get All Products    |     /admin                     |     GET       |     Array of Products                   |
+|     Add Product         |     /admin/addProduct          |     POST      |     Product added                       |
+|     Delete Product      |     /admin/delete/{id}         |     GET       |     Product deleted                     |
+|     Product Edit        |     /admin/productEdit/{id}    |     GET       |     Get All details of Particular id    |
+|     Product Edit        |     /admin/productEdit/{id}    |     POST      |     Save the Changes                    |
+|     Get All Orders      |     /admin/orders              |     GET       |     Array of Orders                     |
 
-| Action | URL | Method | Response |
-| Get All Products | /admin | GET | Array of Products |
-| Add Product | /admin/addProduct | POST | Product added |
-| Delete Product | /admin/delete/{id} | GET | Product deleted |
-| Product Edit | /admin/productEdit/{id} | GET | Get All details of Particular id |
-| Product Edit | /admin/productEdit/{id} | POST | Save the Changes |
-| Get All Orders | /admin/orders | GET | Array of Orders |
-
-
+|
+---
 **Frontend:**
 
 **Customer:**
