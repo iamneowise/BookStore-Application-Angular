@@ -119,20 +119,22 @@ While the above ones are the basic functional features expected, the below ones 
 **API Endpoints:**
 
 | USER |
-| --- | --- | --- | --- |
-| Action | URL | Method | Response |
-| Login | /login | POST | true/false |
-| Signup | /signup | POST | true/false |
-| Get All Products – Home | /home | GET | Array of Products |
-| Add to cart | /home/{id} | POST | Item added to cart |
-| Cart Items | /cart/{id} | GET | Array of Cart Items |
-| Delete cart Item | /cart/delete | POST | Cart Deleted |
-| Cart to Orders | /saveOrder | POST | Cart items added to the Orders list |
-| Orders list | /orders | POST | Array of Orders |
-| Place order directly | /placeOrder | POST | Place items to orders directly |
-|
+
+|     Action                     |     URL             |     Method    |     Response                               |
+|--------------------------------|---------------------|---------------|--------------------------------------------|
+|     Login                      |     /login          |     POST      |     true/false                             |
+|     Signup                     |     /signup         |     POST      |     true/false                             |
+|     Get All Products – Home    |     /home           |     GET       |     Array of Products                      |
+|     Add to cart                |     /home/{id}      |     POST      |     Item added to cart                     |
+|     Cart Items                 |     /cart/{id}      |     GET       |     Array of Cart Items                    |
+|     Delete cart Item           |     /cart/delete    |     POST      |     Cart Deleted                           |
+|     Cart to Orders             |     /saveOrder      |     POST      |     Cart items added to the Orders list    |
+|     Orders list                |     /orders         |     POST      |     Array of Orders                        |
+|     Place order directly       |     /placeOrder     |     POST      |     Place items to orders directly         |
+
 | ADMIN |
-| --- | --- | --- | --- |
+
+
 | Action | URL | Method | Response |
 | Get All Products | /admin | GET | Array of Products |
 | Add Product | /admin/addProduct | POST | Product added |
