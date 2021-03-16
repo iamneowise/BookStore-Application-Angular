@@ -106,7 +106,9 @@ While the above ones are the basic functional features expected, the below ones 
 
 1. Basic email validation should be performed.
 2. Basic mobile validation should be performed.
-|
+
+**Project Folder Structure : (Component Structure)**
+![](https://drive.google.com/file/d/1H44Z-qdL0E7O1_kKHHklcTdErKd3WMlC/preview)
 ---
 
 ## Project Tasks:
