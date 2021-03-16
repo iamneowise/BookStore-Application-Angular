@@ -109,11 +109,11 @@ While the above ones are the basic functional features expected, the below ones 
 |
 ---
 
-**Project Tasks:**
+## Project Tasks:
 
 **API Endpoints:**
 
-| USER |
+| **USER** |
 
 |     Action                     |     URL             |     Method    |     Response                               |
 |--------------------------------|---------------------|---------------|--------------------------------------------|
@@ -127,7 +127,7 @@ While the above ones are the basic functional features expected, the below ones 
 |     Orders list                |     /orders         |     POST      |     Array of Orders                        |
 |     Place order directly       |     /placeOrder     |     POST      |     Place items to orders directly         |
 
-| ADMIN |
+| **ADMIN** |
 
 |     Action              |     URL                        |     Method    |     Response                            |
 |-------------------------|--------------------------------|---------------|-----------------------------------------|
@@ -140,10 +140,10 @@ While the above ones are the basic functional features expected, the below ones 
 
 |
 ---
-**Frontend:**
+## Frontend
 
 **Customer:**
-
+```
 1. Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
   1. Ids:
     1. email
@@ -226,7 +226,7 @@ While the above ones are the basic functional features expected, the below ones 
   3. Screenshot
 
 ![](RackMultipart20210315-4-1qhju7z_html_addf7d592975141c.png)
-
+```
 **Backend:**
 
 **Class and Method description:**
