@@ -108,7 +108,7 @@ While the above ones are the basic functional features expected, the below ones 
 2. Basic mobile validation should be performed.
 
 **Project Folder Structure : (Component Structure)**
-![](https://drive.google.com/file/d/1H44Z-qdL0E7O1_kKHHklcTdErKd3WMlC/view?usp=sharing)
+![](https://bn1305files.storage.live.com/y4mePqHvD5ntYT71LXJ_jSuMfTbceiHilr0INDRYace2TsRmiQyhhapSqVXMTC1o9KqdeXtY7DSl7eLqfGpEfmk1PnkzXwROlM3lkahonPPOeRi3ihHZL_1gRpW5GWntQHM3nLZWxOJWm0w0R6q9z9RE4hz6EBsLoVC_DUkS_vHn_Bcs_mxZjMiF3SJThAW7aQI?width=728&height=516&cropmode=none)
 ---
 
 ## Project Tasks:
