@@ -324,5 +324,5 @@ View Orders: Create a view component where the admin can look into the new and o
     1. List<OrderTemp> getUserProducts(Stringid): This method helps to list the orders based on the user id.
     2. saveProduct(Stringid): This method helps to save the cart items as an order.
     3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
-    ```
-Happy Coding Neos:thumbsup:
+```
+Happy Coding Neos👍
