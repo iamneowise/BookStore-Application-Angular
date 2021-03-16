@@ -140,7 +140,6 @@ While the above ones are the basic functional features expected, the below ones 
 |     Product Edit        |     /admin/productEdit/{id}    |     POST      |     Save the Changes                    |
 |     Get All Orders      |     /admin/orders              |     GET       |     Array of Orders                     |
 
-|
 ---
 ## Frontend
 
