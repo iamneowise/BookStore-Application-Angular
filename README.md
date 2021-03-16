@@ -232,7 +232,7 @@ While the above ones are the basic functional features expected, the below ones 
 **Class and Method description:**
 
 **Model Layer:**
-
+```
 1. UserModel: This class stores the user type (admin or the customer) and all user information.
   1. Attributes:
     1. email: String
@@ -308,3 +308,4 @@ While the above ones are the basic functional features expected, the below ones 
     1. List\&lt;OrderTemp\&gt;getUserProducts(Stringid): This method helps to list the orders based on the user id.
     2. saveProduct(Stringid): This method helps to save the cart items as an order.
     3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
+    ```
