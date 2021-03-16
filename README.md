@@ -144,8 +144,8 @@ While the above ones are the basic functional features expected, the below ones 
 
 **Customer:**
 ```
-1. Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
-  ```1. Ids:
+Signup: Design a signup page component where the new customer has options to sign up by providing their basic details.
+  1. Ids:
     1. email
     2. username
     3. mobilenumber
@@ -156,7 +156,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4mo8qjJAmXEbrPD7XDdYLshRCLMmgqzBIy7B2LZD3bWtkmqAJNfZ7OCtyOtxzlN7COcv3u74NUvwCceX8PXu8KiYS6Gelz5qyY0QLeNtQhS3HOvAy9ypbpZ0nAXGRC8SR9IsC14zzyknimaecy3vUIf0ZtMMb9e3OG2bcsmJ6sGpl2q8-TVAZ4VRzAGGHtUCdB?width=1483&height=1024&cropmode=none)
 
-```1. Login: Design a login page component where the existing customer can log in using the registered email id and password.
+```
+Login: Design a login page component where the existing customer can log in using the registered email id and password.
   1. Ids:
     1. email
     2. password
@@ -165,7 +166,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4m97q5iBktyEXc3dNhediD9QconKcfwHnWKvFFD-pYuUhHtvFGM_p26q9hSIAtSyCkghNYmJEUrUYwQGfH2y-hbFwwP9_GlVJk0tUi4twyZF3_NDDw3unsIDLv3pDviI2LtKW-DXJUA-S_Klc1Aaz3bGbLyeraITJcCW81DMJefyhPBfNrtoZR5gqXYgtpxylD?width=1440&height=1024&cropmode=none)
 
-```1. Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
+```
+Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
   1. Ids:
     1. homeButton
     2. cartButton
@@ -175,7 +177,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4m-NowdEPP-TKvifaKWnFAm0ca2T9eKpSaEF6g2J5thI3hOX_ood8IDhQGKWFLDkJvalvOPksB9SaebL_lvEEmUJjSr05OxFoAWloeECBi7R2z-RleT2FqIK9ZkWPVVTtg_9MQ45kyFieWJ_KeNdsZqw33xKrEleRopSDsAF-s-1doOSgjewoF0ZqjQt_TXVHD?width=1440&height=1024&cropmode=none)
 
-```1. Cart and Orders: Design a cart component and order component where we can see the cart items and see the items ordered after placing an order.
+```
+Cart and Orders: Design a cart component and order component where we can see the cart items and see the items ordered after placing an order.
   1. Ids
     1. cartBody
     2. orderBody
@@ -187,7 +190,8 @@ While the above ones are the basic functional features expected, the below ones 
 
 **Admin:**
 
-```1. Admin Dashboard: Design a dashboard page where the list of products is displayed on the admin side.
+```
+Admin Dashboard: Design a dashboard page where the list of products is displayed on the admin side.
   1. Ids
     1. addProduct
     2. productBody
@@ -196,7 +200,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4md5PTyC9iVTMWaqIoTZb5CwuLVW2JJFWFwODs24C6qUrudiHhnvo3qIRSdTmirEh-B9706WnpIhnV2F4ZwCHpjxILaOIaWhT39rbKnHC090NfKbUSElMFnPVpxRumdDrUV5VW0EAWzLeQW6XFu5VPEfOh8vZEuhAd7wfTcp39umCT3UIEGorB94qq_Sm1ieu8?width=1440&height=1024&cropmode=none)
 
-```1. Admin Navigation: Design a navigation component that can navigate to products and orders.
+```
+Admin Navigation: Design a navigation component that can navigate to products and orders.
   1. Ids:
     1. adminOrderButton
     2. productButton
@@ -205,7 +210,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4mtGZ-e3vN1PeMGtGqbWtsu2wVDnDkWpao7p_KfcfvCnxK0rD-PJC-Sl0Yy4-mtXEFfMiLxwEbLn-2M3JbjT9WrsNtrKBgVxpQsbsukka4ITqaHlrAwTYPI3K67pZePCTXUPXDlimV4RIaDhiDZW93zACcFbLrj79QSWTiD2WiSCUNeGD6-IqO1R13oXI1Xc4w?width=1424&height=495&cropmode=none)
 
-```1. Add Product: Design an add product component in which the admin can add new products to the inventory.
+```
+Add Product: Design an add product component in which the admin can add new products to the inventory.
   1. Ids:
     1. addProductBody
     2. productName
@@ -219,7 +225,8 @@ While the above ones are the basic functional features expected, the below ones 
 ```
 ![](https://bn1305files.storage.live.com/y4mWhv2Chl-OO053r-tB5mQgl1lMQ5ybM53P2ndlmvidpaguzAefW8TsKH5HGwE7MnoO3mxd04lvaVhcXSuF8zqmOYsyJ42RqrGFiYYATPji1qCIJiJKRdsAmZyykjijMDpRNhvLVGLeniyxLzmzBZqwpo7DDZeg5F4orm3DMGcp3zotlbXIMz_y-kyEtOCoeAY?width=1440&height=1024&cropmode=none)
 
-```1. View Orders: Create a view component where the admin can look into the new and old orders.
+```
+View Orders: Create a view component where the admin can look into the new and old orders.
   1. Ids:
     1. adminOrderBody
   2. API endpoint Url: [http://localhost:4200/admin](http://localhost:4200/admin)/orders
