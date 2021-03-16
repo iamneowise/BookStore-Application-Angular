@@ -154,7 +154,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/signup](http://localhost:4200/signup)
   3. Output screenshot:
 ```
-![](RackMultipart20210315-4-1qhju7z_html_6b2c7e20a0c6596.png)
+![]()
 
 ```1. Login: Design a login page component where the existing customer can log in using the registered email id and password.
   1. Ids:
@@ -163,7 +163,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/login](http://localhost:4200/login)
   3. Output screenshot:
 ```
-![](RackMultipart20210315-4-1qhju7z_html_55316531e76633a6.png)
+![]()
 
 ```1. Dashboard / Home: Design a home page component that has the navigation bar and lists all the available products as grid elements with appropriate filter options.
   1. Ids:
@@ -173,7 +173,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/](http://localhost:4200/login)home
   3. Screenshot
 ```
-![](RackMultipart20210315-4-1qhju7z_html_79ef20b65d997156.png)
+![]()
 
 ```1. Cart and Orders: Design a cart component and order component where we can see the cart items and see the items ordered after placing an order.
   1. Ids
@@ -183,7 +183,7 @@ While the above ones are the basic functional features expected, the below ones 
   3. API endpoint Url: [http://localhost:4200/orders](http://localhost:4200/orders)
   4. Screenshot
 ```
-![](RackMultipart20210315-4-1qhju7z_html_f436440e5177c99c.png)
+![]()
 
 **Admin:**
 
@@ -194,7 +194,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/admin](http://localhost:4200/admin)
   3. Screenshot
 ```
-![](RackMultipart20210315-4-1qhju7z_html_3e88f563434358f3.png)
+![]()
 
 ```1. Admin Navigation: Design a navigation component that can navigate to products and orders.
   1. Ids:
@@ -203,7 +203,7 @@ While the above ones are the basic functional features expected, the below ones 
     3. logoutButton
   2. Screenshot:
 ```
-![](RackMultipart20210315-4-1qhju7z_html_4af3fee3553adf00.png)
+![]()
 
 ```1. Add Product: Design an add product component in which the admin can add new products to the inventory.
   1. Ids:
@@ -217,7 +217,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/ad](http://localhost:4200/ad)dProduct
   3. Screenshot
 ```
-![](RackMultipart20210315-4-1qhju7z_html_632b13862eabe81.png)
+![]()
 
 ```1. View Orders: Create a view component where the admin can look into the new and old orders.
   1. Ids:
@@ -225,7 +225,7 @@ While the above ones are the basic functional features expected, the below ones 
   2. API endpoint Url: [http://localhost:4200/admin](http://localhost:4200/admin)/orders
   3. Screenshot
 ```
-![](RackMultipart20210315-4-1qhju7z_html_addf7d592975141c.png)
+![]()
 
 ## Backend
 
