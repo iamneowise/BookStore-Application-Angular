@@ -329,9 +329,9 @@ View Orders: Create a view component where the admin can look into the new and o
 ## Application Workflow
 
 Admin Flow (Click to see the output)
-> [admin](https://www.figma.com/proto/9uBq0uLHZmbfkPMpqGoGpb/Bookstore-Admin-Flow?node-id=1%3A2&viewport=402%2C119%2C0.1565253883600235&scaling=scale-down)
+> [admin]<https://www.figma.com/proto/9uBq0uLHZmbfkPMpqGoGpb/Bookstore-Admin-Flow?node-id=1%3A2&viewport=402%2C119%2C0.1565253883600235&scaling=scale-down>
 
 User Flow (Click to see the output)
-> [user](https://www.figma.com/proto/VBlAZmcF46Uvfh8Q6QELFz/Bookstore-User-Flow?node-id=4%3A4&viewport=1812%2C331%2C0.4647536873817444&scaling=scale-down)
+> [user]<https://www.figma.com/proto/VBlAZmcF46Uvfh8Q6QELFz/Bookstore-User-Flow?node-id=4%3A4&viewport=1812%2C331%2C0.4647536873817444&scaling=scale-down>
 
 Happy Coding Neos👍
