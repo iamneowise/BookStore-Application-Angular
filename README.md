@@ -326,4 +326,12 @@ View Orders: Create a view component where the admin can look into the new and o
     2. saveProduct(Stringid): This method helps to save the cart items as an order.
     3. placeOrder(OrderModelorder): This method helps to place an order by the customer.
 ```
+## Application Workflow
+
+Admin Flow
+![admin](https://www.figma.com/proto/9uBq0uLHZmbfkPMpqGoGpb/Bookstore-Admin-Flow?node-id=1%3A2&viewport=402%2C119%2C0.1565253883600235&scaling=scale-down)
+
+User Flow
+![user](https://www.figma.com/proto/VBlAZmcF46Uvfh8Q6QELFz/Bookstore-User-Flow?node-id=4%3A4&viewport=1812%2C331%2C0.4647536873817444&scaling=scale-down)
+
 Happy Coding Neos👍
